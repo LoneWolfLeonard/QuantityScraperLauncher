@@ -549,10 +549,6 @@ filenamecounter = filenamecounter + 1;
     FileNameWithoutSpaces = PTitleHolder[FileNamePhase6Count];
     FileNameModifier = FileNameWithoutSpaces.replaceAll(" ", "");
     FileNameWithoutSpaces = FileNameModifier.replaceAll("/", "");
-    FileNameModifier = FileNameWithoutSpaces.replaceAll("\\(", "");
-    FileNameWithoutSpaces = FileNameModifier.replaceAll("\\)", "");
-    FileNameModifier = FileNameWithoutSpaces.replaceAll("&", "");
-    FileNameWithoutSpaces = FileNameModifier.replaceAll("", "");
     FileNamePhase6Count++;
                          FileWriter fw = new FileWriter("C:\\Users\\tremanleo\\Documents\\LeonardCMS\\Counter.txt");
                          PrintWriter out = new PrintWriter(fw);
@@ -900,13 +896,9 @@ subloopcount = 0;
     FileNameWithoutSpaces = PTitleHolder[FileNamePhase6Count];
     FileNameModifier = FileNameWithoutSpaces.replaceAll(" ", "");
     FileNameWithoutSpaces = FileNameModifier.replaceAll("/", "");
-    FileNameModifier = FileNameWithoutSpaces.replaceAll("\\(", "");
-    FileNameWithoutSpaces = FileNameModifier.replaceAll("\\)", "");
-    FileNameModifier = FileNameWithoutSpaces.replaceAll("&", "");
-    FileNameWithoutSpaces = FileNameModifier.replaceAll("", "");
-         out5.print("	<url>" +
-                "<loc>" + "https://www.dme.net/" + FileNameWithoutSpaces + ".html </loc>" +
-                "</url>\n");
+         out5.print("	<url>\n" +
+                "<loc>" + FileNameWithoutSpaces + ".html</loc>\n" +
+                "</url>");
          FileNamePhase6Count++;
          out5.flush();
          subloopcount++;  
