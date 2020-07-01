@@ -232,8 +232,7 @@ filenamecounter = filenamecounter + 1;
             "<link rel=\"alternate\" hreflang=\"en\" href=\"" + GimmeAName + "/>\n" +
             "<link rel=\"icon\" href=\"https://www.dme.net/wp-content/uploads/2019/09/cropped-dme-icon2020-1-32x32.png\" sizes=\"32x32\" />\n" +
             "<link rel=\"icon\" href=\"https://www.dme.net/wp-content/uploads/2019/09/cropped-dme-icon2020-1-192x192.png\" sizes=\"192x192\" />\n" +
-            "<link rel=\"apple-touch-icon-precomposed\" href=\"https://www.dme.net/wp-content/uploads/2019/09/cropped-dme-icon2020-1-180x180.png\" />\n" +
-            "<style>\n" +
+            "<link rel=\"apple-touch-icon-precomposed\" href=\"https://www.dme.net/wp-content/uploads/2019/09/cropped-dme-icon2020-1-180x180.png\" />\n" +            "<style>\n" +
             ".fill {object-fit: fill;}\n" +
             ".bnavbar\n" +
             "{\n" +
@@ -482,7 +481,7 @@ filenamecounter = filenamecounter + 1;
             "<div class=\"wnavbar\" width=\"10%\"><a href=\"https://www.dme.net/\" title=\"homepage\"><img src=\"https://www.dme.net/wp-content/uploads/2019/09/DME-Logo_Black-R.png\" width=\"277px\" height=\"52px\" alt=\"logo\"></a></div> <div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/\" title=\"homepage\"><h5>HOME</h5></a> </div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/products/\" alt=\"Products Page\"><h5> PRODUCTS</h5></a> </div><div width=\"10%\" class=\"wnavbar\"><h5> SOLUTIONS</h5></div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/support/\" alt=\"Support\"><h5>SUPPORT</h5></a> </div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/company/\"> <h5>COMPANY</h5></a></div><div class=\"wnavbar\"> <a href=\"https://store.milacron.com/naconfiguratorlist\"><h5>CONFIGURATORS</h5> </a></div><div class=\"wnavbar\"><a href=\"https://store.milacron.com/shop-parts?breadCrumFullItem=94\" title=\"EStore\" alt=\"Estore\"><img src=\"https://www.dme.net/wp-content/uploads/2020/02/shop-estore-button.png\" width=\"177px\" height=\"60px\" title=\"eStore\" alt=\"shop eStore\"></a></div>\n" +
             "<div id=\"grad\" width=\"100%\"></div>" +
             "<br>\n" +
-            "<center><h2>" + PageTitleNameThing + " With The Buy Now Button Next To The Model You Want</h2></center>\n" +
+            "<center><h2>" + PageTitleNameThing + " From DME</h2></center>\n" +
             "<br>\n" +
             "<h3>" + PageDescriptionNameThing + "</h3>" +
             "<center>" +
@@ -534,7 +533,7 @@ filenamecounter = filenamecounter + 1;
           PageDescriptionNameThing = PageDescriptionHolder[counterthing];          
                   
           //This section needs to write the start of the page.
-                                    File file = new File("C:\\Users\\tremanleo\\Documents\\LeonardCMS\\Counter.txt");
+                          File file = new File("C:\\Users\\tremanleo\\Documents\\LeonardCMS\\Counter.txt");
                           BufferedReader br = new BufferedReader(new FileReader(file));
 
                           String line5;
@@ -830,7 +829,7 @@ filenamecounter = filenamecounter + 1;
             "<div class=\"wnavbar\" width=\"10%\"><a href=\"https://www.dme.net/\" title=\"homepage\"><img src=\"https://www.dme.net/wp-content/uploads/2019/09/DME-Logo_Black-R.png\" width=\"277px\" height=\"52px\" alt=\"logo\"></a></div> <div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/\" title=\"homepage\"><h5>HOME</h5></a> </div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/products/\" alt=\"Products Page\"><h5> PRODUCTS</h5></a> </div><div width=\"10%\" class=\"wnavbar\"><h5> SOLUTIONS</h5></div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/support/\" alt=\"Support\"><h5>SUPPORT</h5></a> </div><div width=\"10%\" class=\"wnavbar\"> <a href=\"https://www.dme.net/company/\"> <h5>COMPANY</h5></a></div><div class=\"wnavbar\"> <a href=\"https://store.milacron.com/naconfiguratorlist\"><h5>CONFIGURATORS</h5> </a></div><div class=\"wnavbar\"><a href=\"https://store.milacron.com/shop-parts?breadCrumFullItem=94\" title=\"EStore\" alt=\"Estore\"><img src=\"https://www.dme.net/wp-content/uploads/2020/02/shop-estore-button.png\" width=\"177px\" height=\"60px\" title=\"eStore\" alt=\"shop eStore\"></a></div>\n" +
             "<div id=\"grad\" width=\"100%\"></div>" +
             "<br>\n" +
-            "<center><h2>" + PageTitleNameThing + " With The Buy Now Button Next To The Model You Want</h2></center>" +
+            "<center><h2>" + PageTitleNameThing + " From DME</h2></center>" +
             "<br>" +
             "<h3>" + PageDescriptionNameThing + "</h3>" +
             "<center>" +
