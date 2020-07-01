@@ -36,16 +36,16 @@ public class ProductPageLeonardCMS
        int SubLoopCountHolder = 0;
        int subloopcount = 0;
        int FileNamePhase6Count = 1;
-       String[] IdHolder = new String[999999];
-       String[] ItemTitle = new String[999999];
-       String[] FinalURL = new String[999999];
-       String[] ItemCategory = new String[999999];
+       String[] IdHolder = new String[25000];
+       String[] ItemTitle = new String[25000];
+       String[] FinalURL = new String[25000];
+       String[] ItemCategory = new String[25000];
        String FileNameWithoutSpaces = "";
        String FileNameModifier = "";
        //for phase 2
-       String[] ArrayCountCategoryNames = new String[99999];
-       int[] ArrayCount = new int[99999];
-       int[] ArrayItemCount = new int[99999]; 
+       String[] ArrayCountCategoryNames = new String[25000];
+       int[] ArrayCount = new int[25000];
+       int[] ArrayItemCount = new int[25000]; 
        int ItemCatCheckerCount = 0;
        String CheckerString = "";
        String LastString = "";
