@@ -51,10 +51,10 @@ public class ProductPageLeonardCMS
        String LastString = "";
        String CurrentString = "";
        //for phase3
-       String[] CategoryHolder = new String[9999];
-       String[] PTitleHolder = new String[9999];
-       String[] MetaDescriptionHolder = new String[9999];
-       String[] PageDescriptionHolder = new String[9999];
+       String[] CategoryHolder = new String[999];
+       String[] PTitleHolder = new String[999];
+       String[] MetaDescriptionHolder = new String[999];
+       String[] PageDescriptionHolder = new String[999];
        int SubLoopCountHolder2 = 0;
        //for phase 4
        int filenamecounter = 0;
@@ -891,7 +891,6 @@ subloopcount = 0;
        FileNamePhase6Count = 1;
        while(subloopcount != ItemCatCheckerCount)
        {
-
     FileNameWithoutSpaces = PTitleHolder[FileNamePhase6Count];
     FileNameModifier = FileNameWithoutSpaces.replaceAll(" ", "");
     FileNameWithoutSpaces = FileNameModifier.replaceAll("/", "");
