@@ -19,9 +19,10 @@ public class QuantityScraperLauncher
        int loopcap = 0;
        int subloopcount = 0;
        int filenamecounter = 0;
+       int launchround = 0;
        
        File file4 = new File("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\CounterForMassiveScrapes.txt");
-       File file3 = new File("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\200urls1.txt");  
+       File file3 = new File("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls1.txt");  
        File UrlLoaderFile = new File("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\UrlLoader.txt");
        BufferedReader br3 = new BufferedReader(new FileReader(file3));
        String Manipulator = "";
@@ -35,7 +36,7 @@ public class QuantityScraperLauncher
 	                        }
 				br.close();
         //0 in here is text file 1.                                                        
-        BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\200urls1.txt"));  
+        BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls1.txt"));  
         {
            if(filenamecounter == 435){reader = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls435.txt"));br3 = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls435.txt"));filenamecounter++;
  }if(filenamecounter == 434){reader = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls434.txt"));br3 = new BufferedReader(new FileReader("C:\\Users\\tremanleo\\Documents\\NetBeansProjects\\QuantityScraperLauncher\\CustomFiles\\FileArea\\MassScraperURLHolder\\25urls434.txt"));filenamecounter++;
